@@ -1,0 +1,837 @@
+###############################################
+1987 - 2008:
+
+
+
+
+Airline: HA, among the highest probabilities for being on schedule: 0.9037488226519924
+
+Airline: AQ, among the highest probabilities for being on schedule: 0.856072656708931
+
+Airline: OO, among the highest probabilities for being on schedule: 0.7554147710305529
+
+
+
+
+
+Airline: OO, among the lowest probabilities for being on schedule: 0.07518074618593931
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.019331817605913296
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.015062366431066053
+
+
+
+Airport: CKB, among the highest average taxi times: 111.0
+
+Airport: LNY, among the highest average taxi times: 48.0
+
+Airport: CBM, among the highest average taxi times: 24.0
+
+
+
+Airport: MKK, among the lowest average taxi times: 4.0
+
+Airport: VIS, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Cancellation Reason: Carrier, No. occurrences: 317972
+
+
+###############################################
+1987 - 2007:
+
+
+
+
+Airline: HA, among the highest probabilities for being on schedule: 0.9128879691183905
+
+Airline: AQ, among the highest probabilities for being on schedule: 0.8529512016973323
+
+Airline: OO, among the highest probabilities for being on schedule: 0.7569394622560214
+
+
+
+Airline: OO, among the lowest probabilities for being on schedule: 0.09204490090072562
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.019331817605913296
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.015062366431066053
+
+
+
+Airport: CKB, among the highest average taxi times: 111.0
+
+Airport: LNY, among the highest average taxi times: 48.0
+
+Airport: CBM, among the highest average taxi times: 24.0
+
+
+
+Airport: MKK, among the lowest average taxi times: 4.0
+
+Airport: VIS, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Cancellation Reason: Carrier, No. occurrences: 118707
+
+
+###############################################
+1987 - 2006:
+
+
+Airline: HA, among the highest probabilities for being on schedule: 0.9147657213316893
+
+Airline: AQ, among the highest probabilities for being on schedule: 0.8366940019223297
+
+Airline: OO, among the highest probabilities for being on schedule: 0.7733481367397443
+
+
+
+Airline: OO, among the lowest probabilities for being on schedule: 0.1205179140146403
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.019331817605913296
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.015062366431066053
+
+
+
+Airport: CKB, among the highest average taxi times: 111.0
+
+Airport: LNY, among the highest average taxi times: 48.0
+
+Airport: CBM, among the highest average taxi times: 24.0
+
+
+
+Airport: VIS, among the lowest average taxi times: 4.0
+
+Airport: ADK, among the lowest average taxi times: 3.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+
+
+Cancellation Reason: Carrier, No. occurrences: 174362
+
+
+###############################################
+1987 - 2005:
+
+
+Airline: HA, among the highest probabilities for being on schedule: 0.9028879691183905
+
+Airline: AQ, among the highest probabilities for being on schedule: 0.8529512016973323
+
+Airline: ML, among the highest probabilities for being on schedule: 0.8069394622560214
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.07204490090072562
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.018331817605913296
+
+Airline: EV, among the lowest probabilities for being on schedule: 0.012062366431066053
+
+
+
+Airport: CKB, among the highest average taxi times: 119.0
+
+Airport: LNY, among the highest average taxi times: 48.0
+
+Airport: CBM, among the highest average taxi times: 24.0
+
+
+
+Airport: VIS, among the lowest average taxi times: 4.0
+
+Airport: ADK, among the lowest average taxi times: 3.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Cancellation Reason: Carrier, No. occurrences: 118707
+
+
+###############################################
+1987 - 2004:
+Airline: HA, among the highest probabilities for being on schedule: 0.9028879691183905
+
+Airline: OO, among the highest probabilities for being on schedule: 0.8329512016986723
+
+Airline: ML, among the highest probabilities for being on schedule: 0.8069394784559914
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.09204490090072562
+
+Airline: FL, among the lowest probabilities for being on schedule: 0.08187212797948578
+
+Airline: EV, among the lowest probabilities for being on schedule: 0.012062366431066053
+
+
+
+Airport: CKB, among the highest average taxi times: 129.0
+
+Airport: LNY, among the highest average taxi times: 48.0
+
+Airport: CBM, among the highest average taxi times: 24.0
+
+
+
+Airport: MKK, among the lowest average taxi times: 4.0
+
+Airport: VIS, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+
+
+
+
+Cancellation Reason: Carrier, No. occurrences: 59357
+
+
+###############################################
+1987 - 2003:
+
+
+Airline: HA, among the highest probabilities for being on schedule: 0.9028879691183905
+
+Airline: OO, among the highest probabilities for being on schedule: 0.8791039748787548
+
+Airline: ML, among the highest probabilities for being on schedule: 0.8675934758784739
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.075604490090072562
+
+Airline: EV, among the lowest probabilities for being on schedule: 0.035819264546538799
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.017062366431066053
+
+
+
+Airport: ACK, among the highest average taxi times: 18.0
+
+Airport: BQN, among the highest average taxi times: 18.0
+
+Airport: PUB, among the highest average taxi times: 18.0
+
+
+
+Airport: ADK, among the lowest average taxi times: 3.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+Airport: OGD, among the lowest average taxi times: 0.0
+
+
+
+
+
+Cancellation Reason: NA
+
+
+###############################################
+1987 - 2002:
+
+
+Airline: NW, among the highest probabilities for being on schedule: 0.8928879691183905
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7568562348956695
+
+Airline: ML, among the highest probabilities for being on schedule: 0.7213646833854785
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.068646774994235467
+
+Airline: EV, among the lowest probabilities for being on schedule: 0.045519638485487987
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.019061275487676988
+
+
+
+Airport: ACK, among the highest average taxi times: 21.0
+
+Airport: ACY, among the highest average taxi times: 17.0
+
+Airport: BQN, among the highest average taxi times: 17.0
+
+
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+Airport: LNY, among the lowest average taxi times: 0.0
+
+Airport: MKK, among the lowest average taxi times: 0.0
+
+
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 2001:
+
+
+Airline: FL, among the highest probabilities for being on schedule: 0.9053583904894725
+
+Airline: WN, among the highest probabilities for being on schedule: 0.8074354856881497
+
+Airline: ML, among the highest probabilities for being on schedule: 0.7615676879799758
+
+
+
+Airline: AA, among the lowest probabilities for being on schedule: 0.075100384754897449
+
+Airline: EV, among the lowest probabilities for being on schedule: 0.015932967873854784
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.010397894678579473
+
+
+
+Airport: ACK, among the highest average taxi times: 21.0
+
+Airport: BQN, among the highest average taxi times: 17.0
+
+Airport: DRO, among the highest average taxi times: 17.0
+
+
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+Airport: LNY, among the lowest average taxi times: 0.0
+
+Airport: MKK, among the lowest average taxi times: 0.0
+
+
+
+Cancellation Reason: NA
+
+
+###############################################
+1987 - 2000:
+
+
+Airline: FL, among the highest probabilities for being on schedule: 0.9517397535858273
+
+Airline: AQ, among the highest probabilities for being on schedule: 0.8911980743927597
+
+Airline: ML, among the highest probabilities for being on schedule: 0.8017337492696979
+
+
+
+Airline: AQ, among the lowest probabilities for being on schedule: 0.071673002298173894
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.054032616662719739
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.049173848438771830
+
+
+
+Airport: ACK, among the highest average taxi times: 21.0
+
+Airport: DRO, among the highest average taxi times: 17.0
+
+Airport: GGG, among the highest average taxi times: 17.0
+
+
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+Airport: LNY, among the lowest average taxi times: 0.0
+
+Airport: MKK, among the lowest average taxi times: 0.0
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1999:
+
+
+
+
+Airline: ML, among the highest probabilities for being on schedule: 0.9243897569047676
+
+Airline: WN, among the highest probabilities for being on schedule: 0.8264573267685499
+
+Airline: FL, among the highest probabilities for being on schedule: 0.7221099199268907
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.102147283653428658
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.079938373456768590
+
+Airline: AQ, among the lowest probabilities for being on schedule: 0.078926237627534868
+
+
+
+
+
+Airport: ACK, among the highest average taxi times: 21.0
+
+Airport: DRO, among the highest average taxi times: 17.0
+
+Airport: GGG, among the highest average taxi times: 17.0
+
+
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+Airport: LNY, among the lowest average taxi times: 0.0
+
+Airport: MKK, among the lowest average taxi times: 0.0
+
+
+
+Cancellation Reason: NA
+
+
+###############################################
+1987 - 1998:
+Airline: HA, among the highest probabilities for being on schedule: 0.9028879691183905
+
+Airline: OO, among the highest probabilities for being on schedule: 0.8791039748787548
+
+Airline: ML, among the highest probabilities for being on schedule: 0.8675934758784739
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.075604490090072562
+
+Airline: EV, among the lowest probabilities for being on schedule: 0.035819264546538799
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.017062366431066053
+
+
+
+Airport: ACK, among the highest average taxi times: 21.0
+
+Airport: DRO, among the highest average taxi times: 17.0
+
+Airport: GGG, among the highest average taxi times: 17.0
+
+
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+Airport: LNY, among the lowest average taxi times: 0.0
+
+Airport: MKK, among the lowest average taxi times: 0.0
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1997:
+
+
+
+
+Airline: FL, among the highest probabilities for being on schedule: 0.9120712387239735
+
+Airline: WN, among the highest probabilities for being on schedule: 0.8901495686563892
+
+Airline: EA, among the highest probabilities for being on schedule: 0.7192736457289278
+
+
+
+Airline: AQ, among the lowest probabilities for being on schedule: 0.278193728721848389
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.099374645781998669
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.075446719384766839
+
+
+
+Airport: DAL, among the lowest average taxi times: 4.0
+
+Airport: KSM, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Airport: ACK, among the highest average taxi times: 20.0
+
+Airport: DRO, among the highest average taxi times: 18.0
+
+Airport: BQN, among the highest average taxi times: 16.0
+
+
+
+Cancellation Reason: NA
+
+
+###############################################
+1987 - 1996:
+
+
+Airline: MQ, among the highest probabilities for being on schedule: 0.8109439357854379
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7001413521221619
+
+Airline: EA, among the highest probabilities for being on schedule: 0.6912723874858247
+
+
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.180398497687980328
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.099893932788566326
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.072473294599490968
+
+
+
+Airport: MKK, among the lowest average taxi times: 4.0
+
+Airport: VIS, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Airport: DAL, among the lowest average taxi times: 4.0
+
+Airport: KSM, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Cancellation Reason: NA
+
+
+###############################################
+1987 - 1995:
+
+
+
+
+Airline: MQ, among the highest probabilities for being on schedule: 0.8109439357854379
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7001413521221619
+
+Airline: EA, among the highest probabilities for being on schedule: 0.6912723874858247
+
+
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.180398497687980328
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.099893932788566326
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.072473294599490968
+
+
+
+Airport: DAL, among the lowest average taxi times: 4.0
+
+Airport: KSM, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Airport: KSM, among the lowest average taxi times: 4.0
+
+Airport: WRG, among the lowest average taxi times: 4.0
+
+Airport: SPN, among the lowest average taxi times: 3.0
+
+
+
+Cancellation Reason: NA
+
+
+###############################################
+1987 - 1994:
+
+
+Airline: AA, among the highest probabilities for being on schedule: 0.865892748197482
+
+Airline: PA, among the highest probabilities for being on schedule: 0.785268908643267
+
+Airline: EA, among the highest probabilities for being on schedule: 0.664246890874378
+
+
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.17153278365845688
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.01982182731864847
+
+Airline: MQ, among the lowest probabilities for being on schedule: 0.1094374481
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1993:
+
+
+
+
+Airline: HP, among the highest probabilities for being on schedule: 0.748240198754023
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7418569625858041
+
+Airline: AA, among the highest probabilities for being on schedule: 0.7411505716419683
+
+
+
+
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.12034157705409398
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.08130728764751276
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.06335049217970676
+
+
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+Cancellation Reason: NA
+
+
+
+
+
+
+###############################################
+1987 - 1992:
+
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7918937285786300
+
+Airline: HP, among the highest probabilities for being on schedule: 0.77975279349038668
+
+Airline: NW, among the highest probabilities for being on schedule: 0.7473990938354249
+
+
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.09634670319949325
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.0659631261553496
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.05139510403753234
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1991:
+
+
+
+
+Airline: HP, among the highest probabilities for being on schedule: 0.748240198754023
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7418569625858041
+
+Airline: AA, among the highest probabilities for being on schedule: 0.7411505716419683
+
+
+
+
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.12034157705409398
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.08130728764751276
+
+Airline: HP, among the lowest probabilities for being on schedule: 0.06335049217970676
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1990:
+
+
+Airline: HP, among the highest probabilities for being on schedule: 0.747741270829449
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7331140535103081
+
+Airline: AA, among the highest probabilities for being on schedule: 0.7324469857906801
+
+
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.6291142866752725
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.1732012620907257
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.12359625958136278
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1989:
+
+
+
+
+Airline: HP, among the highest probabilities for being on schedule: 0.7526057406323534
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7428616506210619
+
+Airline: AA, among the highest probabilities for being on schedule: 0.7393994105280435
+
+
+
+
+
+Airline: PI, among the lowest probabilities for being on schedule: 0.6291142866752725
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.16987987504626303
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.11494657069246392
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987 - 1988:
+
+
+
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7718749515165619
+
+Airline: HP, among the highest probabilities for being on schedule: 0.7599834259312889
+
+Airline: AA, among the highest probabilities for being on schedule: 0.7517931417114977
+
+
+
+
+
+Airline: US, among the lowest probabilities for being on schedule: 0.6605392640595316
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.1653621755439992
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.11397000550980821
+
+
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+Cancellation Reason: NA
+
+
+
+
+###############################################
+1987:
+
+
+
+
+Airline: AA, among the highest probabilities for being on schedule: 0.7289510420702421
+
+Airline: WN, among the highest probabilities for being on schedule: 0.7138432446531038
+
+Airline: EA, among the highest probabilities for being on schedule: 0.696354817930355
+
+
+
+
+
+Airline: PS, among the lowest probabilities for being on schedule: 0.5606455099233641
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.15595543322524696
+
+Airline: NW, among the lowest probabilities for being on schedule: 0.10943744815624765
+
+
+
+
+
+Airport Average taxi IN and OUT - NA
+
+
+
+Cancellation Reason: NA
+
+
+

@@ -1,0 +1,55 @@
+I have assumed that one has already installed the desired versions of Hadoop and Oozie.
+
+move the source files to the master node, in the directory: /usr/local/Hadoop
+Workflow.xml
+FlightDelayTime.java
+TaxiAverageTime.java
+FlightCencellationReason.java
+
+then, create input folder
+cd /usr/local/hadoop
+mkdir input
+
+then upload the dataset and start hadoop
+cd $HADOOP_HOME
+hdfs namenode -format
+sbin/start-all.sh
+sbin/mr-jobhistory-daemon.sh start historyserver
+
+upload input directory in hdfs
+hdfs dfs -mkdir -p input
+hdfs dfs -put input/* input
+
+upload Oozie's share file to hdfs
+cd $OOZIE_HOME
+sudo tar xvf oozie-lib-4.3.0.tar.gz 
+cd $HADOOP_HOME
+hdfs dfs -put $OOZIE_HOME/share share
+
+Then, upload Workflow to hdfs:
+hdfs dfs -mkdir FlightAnalysis
+hdfs dfs -put workflow.xml FlightAnalysis
+
+compile and make final jar file ready:
+hadoop com.sun.tools.javac.Main FlightDelayTime.java
+hadoop com.sun.tools.javac.Main TaxiAverageTime.java
+hadoop com.sun.tools.javac.Main FlightCencellationReason.java
+jar cvf FlightAnalysis.jar *.class
+hdfs dfs -mkdir FlightAnalysis/lib
+hdfs dfs -put FlightAnalysis.jar FlightAnalysis/lib
+
+initialize oozie database and start oozie
+OOZIE_HOME/bin/ooziedb.sh create -sqlfile oozie.sql -run
+OOZIE_HOME/bin/oozied.sh start
+
+Then, I check the status of oozie and run the program:
+oozie job -oozie http://localhost:11000/oozie -config job.properties -run
+
+Then, i check oozie exeution time for the workflow and the status of that through the public DNS of the master node in the browser
+
+
+Finally, get the results and check them:
+hdfs dfs -get FlightAnalysis/output output
+
+Finally, I concatenated them in the output.txt
+

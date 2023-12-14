@@ -1,0 +1,107 @@
+<workflow-app xmlns="uri:oozie:workflow:0.5" name="FlightAnalysis">
+    <start to="flightDelayAction"/>
+    
+    <!-- Flight Delay Time action -->
+    <action name="flightDelayAction">
+        <map-reduce>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                <delete path="${nameNode}/user/${wf:user()}/output/flightDelayOutput"/>
+            </prepare>
+            <configuration>
+                <property>
+                    <name>mapred.mapper.new-api</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>mapred.reducer.new-api</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>mapreduce.job.reduces</name>
+                    <value>1</value>
+                </property>
+            </configuration>
+            <main-class>FlightDelayTime</main-class>
+            <mapper>FlightDelayTime$Map</mapper>
+            <reducer>FlightDelayTime$Reduce</reducer>
+            <input>${nameNode}/user/${wf:user()}/input</input>
+            <output>${nameNode}/user/${wf:user()}/output/flightDelayOutput</output>
+        </map-reduce>
+        <ok to="taxiAverageAction"/>
+        <error to="fail"/>
+    </action>
+
+    <!-- Taxi Average Time action -->
+    <action name="taxiAverageAction">
+        <map-reduce>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                <delete path="${nameNode}/user/${wf:user()}/output/taxiAverageOutput"/>
+            </prepare>
+            <configuration>
+                <property>
+                    <name>mapred.mapper.new-api</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>mapred.reducer.new-api</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>mapreduce.job.reduces</name>
+                    <value>1</value>
+                </property>
+            </configuration>
+            <main-class>TaxiAverageTime</main-class>
+            <mapper>TaxiAverageTime$Map</mapper>
+            <reducer>TaxiAverageTime$Reduce</reducer>
+            <input>${nameNode}/user/${wf:user()}/input</input>
+            <output>${nameNode}/user/${wf:user()}/output/taxiAverageOutput</output>
+        </map-reduce>
+        <ok to="flightCancellationAction"/>
+        <error to="fail"/>
+    </action>
+
+    <!-- Flight Cancellation Reason action -->
+    <action name="flightCancellationAction">
+        <map-reduce>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                <delete path="${nameNode}/user/${wf:user()}/output/flightCancellationOutput"/>
+            </prepare>
+            <configuration>
+                <property>
+                    <name>mapred.mapper.new-api</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>mapred.reducer.new-api</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>mapreduce.job.reduces</name>
+                    <value>1</value>
+                </property>
+            </configuration>
+            <main-class>FlightCancellationReason</main-class>
+            <mapper>FlightCancellationReason$Map</mapper>
+            <reducer>FlightCancellationReason$Reduce</reducer>
+            <input>${nameNode}/user/${wf:user()}/input</input>
+            <output>${nameNode}/user/${wf:user()}/output/flightCancellationOutput</output>
+        </map-reduce>
+        <ok to="end"/>
+        <error to="fail"/>
+    </action>
+
+    <!-- Fail -->
+    <kill name="fail">
+        <message>Workflow failed, check the error message</message>
+    </kill>
+
+    <!-- End -->
+    <end name="end"/>
+</workflow-app>
